@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-10-15T16:49:33Z" product-name="devlog">
+		<header/>
+		<body>
+			<trans-unit id="general">
+				<source>General</source>
+			</trans-unit>
+
+			<trans-unit id="openIdProvider">
+				<source>Open ID Provider</source>
+			</trans-unit>
+			<trans-unit id="openIdProviderConfigurationUri">
+				<source>OpenID Provider Configuration URI : JSON document with OpenID Provider Configuration Information (usually https://{provider}/.well-known/openid-configuration)</source>
+			</trans-unit>
+
+			<trans-unit id="jwt">
+                <source>JSON Web Token (jwt)</source>
+            </trans-unit>
+            <trans-unit id="jwtGetParamName">
+                <source>Get param name for jwt : $_GET param, which holds the 'jwt' token</source>
+            </trans-unit>
+
+            <trans-unit id="localUsersStorage">
+                <source>Local users storage</source>
+            </trans-unit>
+            <trans-unit id="storageUsersFolderUid">
+                <source>Storage users folder UID : Storage system folder, where all new cognito users will be saved locally</source>
+            </trans-unit>
+            <trans-unit id="userGroupUid">
+                <source>User group UID : User group for all newly created local cognito users</source>
+            </trans-unit>
+
+            <trans-unit id="authService">
+                <source>Authentication service</source>
+            </trans-unit>
+
+            <trans-unit id="servicePrecedence">
+                <source>Service precedence</source>
+            </trans-unit>
+
+            <trans-unit id="priority">
+                <source>Priority : The priority is used to define a call order for services. The service with the highest priority is called first. The default range is 0-100.</source>
+            </trans-unit>
+            <trans-unit id="quality">
+                <source>Quality : Among services with the same priority, the service with the highest quality, but the same priority will be preferred. The default range is 0-100.</source>
+            </trans-unit>
+
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,25 @@
+# customcategory=general=LLL:EXT:cognito/Resources/Private/Language/Configuration.xlf:general
+# customcategory=authService=LLL:EXT:cognito/Resources/Private/Language/Configuration.xlf:authService
+
+# customsubcategory=openIdProvider=LLL:EXT:cognito/Resources/Private/Language/Configuration.xlf:openIdProvider
+# customsubcategory=jwt=LLL:EXT:cognito/Resources/Private/Language/Configuration.xlf:jwt
+# customsubcategory=localUsersStorage=LLL:EXT:cognito/Resources/Private/Language/Configuration.xlf:localUsersStorage
+# customsubcategory=servicePrecedence=LLL:EXT:cognito/Resources/Private/Language/Configuration.xlf:servicePrecedence
+
+# cat=general/localUsersStorage/a; type=integer; label=LLL:EXT:cognito/Resources/Private/Language/Configuration.xlf:storageUsersFolderUid
+storageUsersFolderUid =
+
+# cat=general/localUsersStorage/b; type=integer; label=LLL:EXT:cognito/Resources/Private/Language/Configuration.xlf:userGroupUid
+userGroupUid =
+
+# cat=general/jwt/a; type=string; label=LLL:EXT:cognito/Resources/Private/Language/Configuration.xlf:jwtGetParamName
+jwtGetParamName = jwt
+
+# cat=general/openIdProvider/a; type=string; label=LLL:EXT:cognito/Resources/Private/Language/Configuration.xlf:openIdProviderConfigurationUri
+openIdProviderConfigurationUri = https://cognito-identity.amazonaws.com/.well-known/openid-configuration
+
+# cat=authService/servicePrecedence/a; type=integer; label=LLL:EXT:cognito/Resources/Private/Language/Configuration.xlf:priority
+priority = 85
+
+# cat=authService/servicePrecedence/b; type=integer; label=LLL:EXT:cognito/Resources/Private/Language/Configuration.xlf:quality
+quality = 85
