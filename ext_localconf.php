@@ -1,7 +1,7 @@
 <?php
 
 if (!defined('TYPO3_MODE')) {
-	die ('Access denied.');
+    die ('Access denied.');
 }
 
 $extensionConfigration = new \Peytz\Cognito\Domain\Model\ExtensionConfiguration();

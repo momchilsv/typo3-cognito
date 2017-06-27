@@ -1,9 +1,15 @@
+2017-07-27 Momchil Vangelov <mva@peytz.dk>
+
+    * Composer mode compatibility (composer.json)
+    * Code formatting
+    * Released version Beta 0.0.3
+
 2017-07-23 Momchil Vangelov <mva@peytz.dk>
 
-	* Add basic documentation / README.rst /
-	* Released version Beta 0.0.2
+    * Add basic documentation / README.rst /
+    * Released version Beta 0.0.2
 
 2017-07-22 Momchil Vangelov <mva@peytz.dk>
 
     * First release
-	* Released version Beta 0.0.1
+    * Released version Beta 0.0.1
