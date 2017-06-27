@@ -1,0 +1,32 @@
+{
+    "name": "momchilsv/cognito",
+    "type": "typo3-cms-extension",
+    "description": "Cognito authentication service for TYPO3 CMS",
+    "keywords": ["typo3","cognito","authentication"],
+    "homepage": "https://github.com/momchilsv/typo3-cognito",
+    "license": [
+        "GPL-2.0+"
+    ],
+    "authors": [
+        {
+            "name": "Momchil Vangelov",
+            "email": "mva@peytz.dk",
+            "homepage": "http://peytz.dk",
+            "role": "Developer"
+        }
+    ],
+    "version": "0.0.3",
+    "require": {
+        "php": ">=5.5.0",
+        "typo3/cms": ">=7.6.0,<8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Peytz\\Cognito\\": "Classes/"
+        }
+    },
+    "replace": {
+        "cognito": "self.version",
+        "typo3-ter/cognito": "self.version"
+    }
+}
